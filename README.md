@@ -1,422 +1,275 @@
-InterviewThis is an open source list of developer questions to ask prospective employers during the hiring process.  I created this list because, frankly, the existing lists that I saw on this topic really sucked.  Many of the starting questions came about from years of hiring into jobs only to find out about some lousy attribute of the company which, had I known about, I probably wouldn't have accepted. Since I began this list I've received many additional contributions from other developers.
+在面试过程中，一般都会有一个固定环节，那就是在临近结束时，面试官会问求职者：**你还有什么问题吗？**
 
-This is not a checklist, this is not a shopping list. If you send this entire list to an employer, they probably won't be calling you back. **This list is intended to serve as a reference point for things to be aware of during your interview process.** Not all of these questions will be relevant to every person or position, you should choose the ones that are relevant to you and what you are interviewing for.  It's OK for there to be questions on this list that you personally do not care about.
+其实，这是一个很好的了解公司，了解未来团队的机会，但很多求职者却不知道问什么，或者是问不到点儿上，错过了这个机会。
 
-The questions on this list are not all appropriate for the initial interview, many could not even be answered by the HR person likely to conduct an initial interview. This list is intended to be a comprehensive collection of things a developer may want to know about a company before they accept an offer.
+这个仓库就是来解决这个问题的，它是一份求职者向面试官提问的问题清单。内容包含关于职位，公司，文化，工作内容等一系列问题，覆盖面还是挺广的。
 
-Use your discretion when choosing what questions to ask and when to ask them.
+大家在看的时候可以记一些自己感兴趣的，然后结合具体面试过程，提有针对性的问题。
+
+以下内容是我的翻译版本，如果有不准确的地方，还请大家指正。也欢迎大家看英文原版～
 
 ### Contributing
 
-Pull requests and Issues are very welcomed and encouraged, but please don't get offended if I reject your question or do not merge your question verbatim. I may ask that you reword it to be clearer, or may even rewrite it myself.
+以下问题并不一定完全适合我们的职场环境，所以欢迎大家说出自己的想法，或者提 pr，我会第一时间合并。
 
 # Interview This!
 
-## The Position
+## 关于职位
 
-- Why are you hiring for this position?
+- 你为什么招聘这个职位？
+- 我在公司的角色是什么？
+  - 我将在组织内的工作处在什么位置？
+- 我预计会在这个职位上停留多久？
+- 我的日常职责是什么？
+  - 你预计我会花多少时间在每一个上？
+- 我都会使用哪些编程语言？
+  - 公司会给我时间学习我需要使用但还不会的语言吗？
+- 你有目标薪资范围吗？
 
-- What would my role at the company be?
-  - Where would I be working within the organization?
+## 开发协作/团队交流
 
-- How long am I expected to remain in this position?
+- 你的团队是如何构成的？
+  - 目前有多少开发人员？
+  - 团队规模有多大？
+  - 垂直切片还是水平切片？
+- 团队坐在一起吗？
+- 团队是否有与其他员工/其他团队隔离的区域？
+- 团队成员多久参加一次会议？
+- 开发人员是否会定期结对编程？
+- 开发人员是否使用屏幕共享或协作编码工具？
+- 你（或我未来的老板）的领导风格是什么？
+- 是否遵循项目管理的敏捷方法（Kanban, scrum, etc）
+- 你如何分配工作？
+  - 你是根据熟练程度预先分配任务，还是希望所有成员都同样熟练？
+- 你如何评估工作？
+- 单一产品，还是我会定期从事不同的项目？
+- 您的公司/团队多久开始一个新项目？
+- 您的团队与公司其他团队的最佳和最差工作关系是什么？
+- 您的团队与其他团队互动的频率如何？
+- 你是否发现自己经常被其他团队的依赖所阻碍？
+- 团队的工作时长？
 
-- What will be my day to day responsibilities?
-  - How much time do you anticipate I would spend on each one?
+## 开发过程
 
-- What programming languages will I be expected to work in?
-  - Will the company grant me time to learn any languages that I need to use but do not know?
-
-- Do you have a target salary range?
-
-
-## Developer Coordination / Team Interactions
-
-- How is your team structured?
-  - How many developers do you currently have?
-  - How large are your team groups?
-  - Vertical slices or Horizontal?
-
-- Are teams seated together?
-
-- Do teams have isolated areas from the rest of the staff / other teams?
-
-- How frequently do team members find themselves in meetings?
-
-- Do your developers pair program on a regular basis?
-
-- Do your developers use screen sharing or collaborative coding tools?
-
-- What is your (or my future boss') leadership style?
-
-- Do you follow an agile methodology for project management (Kanban, scrum, etc)
-
-- How do you assign work?
-  - Do you pre-assign tasks based on proficiencies, or are all members expected to be equally proficient?
-
-- How do you estimate work?
-
-- Single product, or will I be regularly working on different projects?
-
-- How frequently does your company/team start a new project?
-
-- What are your group's best and worst working relationships with other groups in the company?
-
-- How frequently does your team interact with other teams?
-
-- Do you find yourself frequently blocked by dependencies from other teams?
-
-- What hours does the team work?
-
-
-## Development Process
-
-- What source control do you use? Can you explain why you chose it?
-
-- Are your repos hosted in-house or on a third-party service?
-   - If in-house, do you use a repo management application such as GitHub Enterprise or Gitlab?
-
-- What is your workflow currently, with regards to developers pushing changes.
-  - Do you do pull requests, or does everyone just merge to a central repo?
-  - What branching method do you use? (Git-Flow, Github-Flow, Environment Merging, something custom)
-
-- Are you using a ticket system or is it more play it by ear?
-  - Do you use the same system for both bugs and new features?
-  - How is priority determined?
-  - What comes first, bugs or features?
-  - Are detailed requirements for tasks determined and documented ahead of time?
-  - How are tasks added to the backlog?
-
-- Who determines the features that would go into the product? How are these chosen?
-  - How are developers involved in that decision?
-  - How are testers involved in that process?
-
-- How do you track development time?
- 
-- Do you have a code review process?
-  - Does your code review process prevent deploying code?
-  - Does your code review process promote empathy?
-
-- Does your team encourage the use of SOLID and DRY design principles to avoid cyclomatic complexity?
-  - What is your take on object calisthenics?
-
-- Do you have established code style rules?
-  - Did you create your own style guide, or are you using a third party's (PEP8, PSRs, Standard JS, etc)
-  - Is there an automated linting process to validate your styles?
-  - Tabs or spaces? (If relevant)
-  - Allman or BSD braces? (If relevant)
-  - Semicolons? (If relevant)
-
-- What are your development environments like?
-  - Virtual Machines?  Local (VirtualBox) or Remote (ESXi)?
-  - Does everyone have an identical development environment?
-  - Are you using vagrant and/or puppet/chef?
-  - How closely do the dev environments mirror your production environment?
-
-- Will I be provided with a new laptop?
-
-  *(Author Note: These are basically more direct versions of the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) "best tools" question.)*
-
-  - Windows, Mac or Linux? Do I get a choice?
-  - Am I allowed to install anything I want on that laptop?
-  - Will it have an SSD and as much ram as can fit?
-  - How hard do I have to justify software purchases?
-  - How often will I receive hardware upgrades?
-
-- What is your release schedule like?
-
-- Will I communicate directly with clients on a regular basis, or does this typically happen through an intermediary?
-
-- What can I expect to see in terms of project specifications and/or mock-ups prior to beginning a new project?
-
-- How is QA/testing done?
-  - Are developers expected to do testing as well? To what extent?
-  - If there is a separate testing team, how is the co-ordination done between testing and development?
-  - How is the decision made that a release is ready?
-
-- Who designs the User Interface?
-  - Are developers expected to do it?
-  - Are there graphics designers in the company?
-  - Are there UX designers in the company?
-
-- Are there compliance requirements in the company like CMM or SOC?
-
-- Do you have an SLA (Service Level Agreement)?
-  - Do you guarantee any of the following? If so, how long?
-    - Turn Around Time (TAT)?
+- 你使用什么源代码管理工具？你能解释一下你为什么选择它吗？
+- 你的仓库是在内部托管还是在第三方服务上托管？
+  - 如果在内部，您是否使用 GitHub Enterprise 或 Gitlab 等仓库管理程序？
+- 关于开发人员推送变更，您目前的工作流程是什么？
+  - 你做拉取请求，还是每个人都只是合并到一个中央仓库？
+  - 你使用什么分支方法？（Git-Flow、Github-Flow、Environment Merging、something custom）
+- 你是在使用工单系统吗？还是口头说说，听一听就算了。
+  - 您是否对 bugs 和新功能使用相同的系统？
+  - 优先级如何确定？
+  - 什么更优先？bugs 还是功能？
+  - 是否提前确定并记录了任务的详细要求？
+  - 任务是如何添加到待办事项中的？
+- 谁来决定产品的功能？是如何抉择的？
+  - 开发人员如何参与该决策？
+  - 测试人员如何参与该过程？
+- 您如何跟踪开发时间？
+- 你有代码审查流程吗？
+  - 您的代码审查过程是否会阻止部署代码？
+  - 你的代码审查过程是否促进了同理心？
+- 您的团队是否鼓励使用 SOLID 和 DRY 设计原则来避免复杂性？
+  - 你对对象的健壮性怎么看？
+- 您是否已建立了代码规范？
+  - 您是否创建了自己的规范，或者是使用第三方的（PEP8, PSRs, Standard JS, etc）
+  - 是否有自动化的 linting 流程来验证您的规范？
+  - Tabs or spaces？
+  - Allman or BSD braces？
+  - 分号？
+- 你的开发环境是什么样的？
+  - 虚拟机？本地（VirtualBox）还是远程（ESXi）？
+  - 每个人都有相同的开发环境吗？
+  - 你在使用 vagrant and/or puppet/chef 吗？
+  - 开发环境与生产环境的镜像有多接近？
+- 我会得到一台新的笔记本电脑吗？（作者注：这些基本上是乔尔测试“最佳工具”问题的更直接版本。）
+  - Windows、Mac 还是 Linux？我有选择吗？
+  - 我可以在那台笔记本电脑上安装我想要的任何东西吗？
+  - 它会配备 SSD 和尽可能多的内存吗？
+  - 我有多难证明购买软件的合理性？
+  - 我多久会收到一次硬件升级？
+- 你的发布时间表是怎样的？
+- 我会定期与客户直接沟通，还是一般都会通过中间人进行？
+- 在开始一个新项目之前，我能看到项目的明确规范/模型吗？
+- QA/测试是如何完成的？
+  - 开发人员是否也需要进行测试？到什么程度？
+  - 如果有单独的测试团队，测试和开发之间如何协调？
+  - 如何做出发布准备就绪的决定？
+- 谁来设计 UI？
+  - 是否期望开发人员做？
+  - 公司里有图形设计师吗？
+  - 公司里有用户体验设计师吗？
+- 公司是否有像 CMM 或 SOC 这样的合规要求？
+- 您有 SLA（Service Level Agreement）吗？
+  - 您能保证以下任何一项吗？如果可以，多长时间？
+    - Turn Around Time (TAT)
     - Average Speed to Answer (ASA)
     - Time Service Factor (TSF)
-  - What is the escalation plan?  What are the consequences if the plan is not followed?
-  - Do you have on call hours?
-    - What is the on-call schedule?
-
-- How satisfied are your engineers with their current toolset? If they had to replace one tool, which would it be and what would they replace it with?
-
-
-## Monitoring / On-call duty
-
-- Do you have any application-level logging? If so, how are logs accessed?
-    - Are logs aggregated across multiple hardware?
-    - Are your logs search-able?
-    - How verbose is your logging?
-
-- Do you use any monitoring software? (Nagios, Icinga, Zabbix, etc.)
-
-- Do you regularly record and review application performance metrics? How are performance optimizations prioritized with respect to other types of tasks?
-
-- How does it inform staff of error conditions? (PagerDuty, Email, SMS, big monitors in each teams room, etc.)
-
-- Is there a permanent on-call duty for each IT team?
-
-- Is there a permanent "control center" that keeps track of events and informs the responsible on-call duty?
-
-- Is there an escalation process if someone cannot be reached?
-
-- Do the developers also have an on-call duty?
-
-- Does time working on incidents/problems after-hours, when on on-call duty, count as overtime?
-
-- Are employees expected to be doing after-hours work while waiting on-call?
-
-
-## Remote
-
-- What timezone/hours does the company work in?
-
-- Will the company pay for home office equipment such as electronics or furniture?
-  - If yes, will that equipment be considered company property?
-  - Would I have to return it if/when I leave the company?
-
-- Do you have a team chat setup such as Slack or Jabber? Do your developers actively use it, is it their primary communication channel?
-
-- Do your developers use video chat software such as Skype or Google Hangouts?
-
-- If a portion of the team works in-office, do you have a dedicated computer to be used for video chat with remote employees?
-
-- Will I have to work over a VPN?
- 
-- How frequently will I be expected to visit the office?
-
-- Will my visits and travel costs be reimbursed, or covered outright by the company?
-
-- How flexible are my hours? Can I take time off during the day if needed and make up for it in the evenings?
-
-
-## Open Source
-
-- Do you use open source libraries?
-    - Are you aware of the licensing on those libraries?
-
-- Does your company release open source code?
-
-- Does your company contribute to (or encourage their developers to contribute to) open source libraries?
-
-- What is the company policy with regards to me releasing open source code (personal projects)?
-  - If there is an approval process, how lengthy is it?
-  - Is the process formalized?
-
-
-## Codebase / Architecture
-
-- How old is your codebase?
-
-- Do you have an automated test suite?
-  - What libraries and tools do you use?
-  - What sorts of tests do you use? (unit, integration, system, load, ...)
-  - What is your testing methodology? (BDD, TDD, Spike & Stabilize, ...)
-  - What is your current level of test coverage? Are you happy with it?
-
-- Do you regularly correct technical debt?
-
-- On a scale of 1 to 10, how much spaghetti code do you have?
-
-- How well-documented is your codebase?
-  - Do you use automated documentation systems like PHPDoc or JSDoc?
-  - Do you maintain a wiki?
-
-- Pure CSS, or compiled middleware (LESS, SASS, etc)?
-
-- What browser and operating system versions do you support?
-
-- Does your codebase require a build process, and is it automated?
-
-- Do you have a continuous integration process implemented?
-
-- Do you use MVC or similar code structuring?
-
-- Is there an in-house framework, and if so who controls it?
-
-- Do you host your product yourself (Local, CoLo, VPS) or is it running on a cloud platform such as AWS or Heroku?
-
-
-## Diversity
-
-- What percentage of the company is non-male?
-
-- What percentage of the company is non-white?
-
-- What percentage of the company is LGBTQ?
-
-- What percentage of the company is non-development staff?
-
-
-## Culture
-
-- What is the rhythm to the work around here? Is there a time of year that it's all hands on deck and we're pulling all-nighters, or is it pretty consistent throughout the year? How about during the week / month? Is it pretty evenly spread throughout the week / month, or are there crunch days?
-
-- What made you (the interviewer) choose to join this company?
-  - What do you enjoy the most about working here?
-
-- Who are the heroes at your company?
-  - What characteristics do the people who are most celebrated have in common with each other?
-
-- Is there a company reward system for employee accomplishments?
-
-- What type of people are successful here? What type of people are not?
-
-- Am I allowed or expected to take my work home with me?
-
-- What are the expectations with regards to hours worked, deadlines, and overtime?
-
-- How much vacation time do you provide?
-  - How much lead time is expected on vacation requests?
-
-- Open office, personal offices or cubicles?
-
-- Is there a dress code?
-
-- What relationship does your dev department have with your sales department? Who sets the deadlines?
-
-- Does the company provide snacks and/or drinks?
-
-- What are your expectations for how many productive hours a developer will have per day?
-
-
-## Company
-
-- Is your company currently profitable?
-
-- What's the biggest change your group has gone through in the last year?
-
-- If I get the job, how do I earn a "gold star" on my performance review? What are the key accomplishments you'd like to see in this role over the next year?
-
-- Which competitor are you most worried about?
-
-- How does sales / operations / technology / marketing / finance work around here? (I.e., groups other than the one you're looking to work in.)
-
-- What's one thing that's key to this company's success that somebody from outside the company wouldn't know about?
-
-- How did you get your start in this industry? Why do you stay?
-
-- What keeps you up at night? What's your biggest worry these days?
-
-- What is your biggest complaint about the company?
-
-- If we have a very successful year, what would that look like? What will have happened over the next 12 months? How does this position help achieve that?
-
-- How does the company / my future boss do performance reviews? How do I make the most of the performance review process to ensure that I'm doing the best I can for the company?
-
-- What information is shared with the employees (revenues, costs, operating metrics)?
-  - Is this an open-book shop, or do you play it closer to the vest?
-  - How is information shared?
-  - How do I get access to the information I need to be successful in this job?
-
-- Who is your health-care provider?
-
-- What percentage of insurance does your company pay?
-
-- Does your company provide maternal/parental leave?
-
-- Will the company pay for training programs / certifications / conferences? What is the approval process like?
-
-- What is the company policy with regards to side projects? Am I allowed to work on my own sites?
-
-- Do I own the code I make in my own time on my own hardware, or does the company claim it as theirs?
-
+  - 升级计划是什么？如果不遵守计划会有什么后果？
+  - 你有 on-call 时间吗？
+    - on-call 时间表是怎样的？
+- 您的工程师对当前工具集的满意度如何？如果他们必须更换一种工具，它会是什么，他们会用什么来代替它？
+
+## 监控/on-call
+
+- 你有任何应用级别的日志吗？如果有，怎么查看？
+  - 日志是否跨多个硬件平台聚合？
+  - 日志可以搜索吗？
+  - 日志记录有多详细？
+- 你用什么监控软件？（Nagios、Icinga、Zabbix 等）
+- 您是否定期记录和审查应用程序性能指标？相对于其他类型的任务，性能优化的优先级如何？
+- 如何通知员工报错情况？（PagerDuty, Email, SMS, big monitors in each teams room, etc.）
+- 每个 IT 团队是否需要永久 on-call 待命？
+- 是否有一个永久性的“控制中心”来跟踪事件并通知负责的 on-call 值班人员？
+- 如果无法联系到某人，是否有升级流程？
+- 开发人员是否也需要 on-call 值班？
+- 当 on-call 值班时，下班后处理事件/问题的时间，是否算作加班？
+- 员工在等待 on-call 时是否应该在下班后工作？
+
+## 远程
+
+- 公司在什么时区工作？
+- 公司会为电子或家具等家庭办公设备付费吗？
+  - 如果是，该设备是否会被视为公司财产？
+  - 如果当我离开公司时，我必须归还吗？
+- 您是否有诸如 Slack 或 Jabber 之类的团队聊天工具？您的开发人员是否积极使用它，这是他们的主要沟通渠道吗？
+- 您的开发人员是否使用 Skype 或 Google Hangouts 等视频聊天软件？
+- 如果团队中的一部分人在办公室工作，您是否有专用计算机用于与远程员工进行视频聊天？
+- 我必须通过 VPN 工作吗？
+- 我应该多久去一次办公室？
+- 我的差旅费用会由公司报销还是直接承担？
+- 我的工作时间有多灵活？如果需要，我可以在白天请假并在晚上补上吗？
+
+## 开源
+
+- 你使用开源库吗？
+  - 您知道这些库的许可吗？
+- 贵公司是否发布开源代码？
+- 贵公司是否为开源库做出贡献（或鼓励他们的开发人员做出贡献）？
+- 关于我发布开源代码（个人项目）的公司政策是什么？
+  - 如果有审批流程，需要多长时间？
+  - 流程是否正式？
+
+## 代码库/架构
+
+- 代码库多长时间了？
+- 你有自动化测试套件吗？
+  - 你使用什么库和工具？
+  - 都做哪些种类的测试？（unit, integration, system, load, ...）
+  - 你的测试方法都有哪些？（BDD, TDD, Spike & Stabilize, ...）
+  - 目前的测试覆盖率是多少？你满意吗？
+- 您是否定期纠正技术债务？
+- 从 0 到 10，你有多少 spaghetti code？
+- 您的代码库的文档记录如何？
+  - 您是否使用像 PHPDoc 或 JSDoc 等自动化文档系统？
+  - 维护 wiki 吗？
+- 纯 CSS，还是编译中间件（LESS, SASS, etc）？
+- 您支持哪些浏览器和操作系统版本？
+- 您的代码库是否需要构建过程，并且是自动化的吗？
+- 您是否实施了持续集成流程？
+- 您是否使用 MVC 或类似的代码结构？
+- 是否有内部框架，如果有，谁来控制它？
+- 您是自己托管产品（Local、CoLo、VPS）还是在 AWS 或 Heroku 等云平台上运行？
+
+## 多样性
+
+- 公司的 非男性 比例是多少？
+- 公司的 非白人 比例是多少？
+- 公司的 LGBTQ 比例是多少？
+- 公司的 非开发人员 比例是多少？
+
+## 文化
+
+- 在这里工作的节奏是怎样的？是偶尔很忙，需要通宵，还是一年之内都差不多？一周，或者一个月呢？是在一个星期，或者一个月之内分布的很平均，还是会特别忙？
+- 是什么让你（面试官）选择加入这家公司？
+  - 在这里工作最享受的是什么？
+- 贵公司的英雄是谁？
+  - 最有名的人有什么共同点？
+- 公司是否有针对员工成就的奖励制度？
+- 什么样的人在这里容易成功？什么类型的人不容易？
+- 我是否被允许或期望将我的工作带回家？
+- 关于工作时间、截止日期和加班时间的期望是什么？
+- 你们提供多少假期？
+  - 假期申请预计需要多长时间？
+- 开放式办公室、个人办公室或隔间？
+- 有着装要求吗？
+- 开发部门与销售部门关系怎么样？谁设定最后期限？
+- 公司是否提供零食或饮料？
+- 您对开发人员每天有多少生产时间有什么期望？
+
+## 公司
+
+- 贵公司目前是否盈利？
+- 你的团队在过去一年中最大的变化是什么？
+- 如果我得到这份工作，我如何在绩效评估中获得“gold star”？在接下来的一年里，你希望在这个职位上看到哪些关键成就？
+- 你最担心哪个竞争对手？
+- 销售/运营/技术/营销/财务在这里是如何工作的？（即，您要工作的小组以外的小组。）
+- 什么是公司成功的关键的一件事，这件事是公司以外的人不知道的？
+- 您是如何开始从事这个行业的？你为什么留下来？
+- 是什么让你彻夜难眠？这些天你最大的担心是什么？
+- 您对公司最大的抱怨是什么？
+- 如果我们有一个非常成功的一年，那会是什么样子？未来 12 个月会发生什么？这个职位如何帮助实现这一目标？
+- 公司或者我未来的老板如何进行绩效评估？我如何充分利用绩效评估流程以确保我为公司尽我所能？
+- 与员工共享哪些信息（收入、成本、运营指标）？
+  - Is this an open-book shop, or do you play it closer to the vest？
+  - 信息如何共享？
+  - 我如何获得在这份工作中取得成功所需的信息？
+- 谁是医疗保健提供者？
+- 贵公司支付多少百分比的保险？
+- 贵公司是否提供产假/育儿假？
+- 公司会为培训计划/认证/会议付费吗？审批流程是怎样的？
+- 关于副项目，公司的政策是什么？我可以在自己的网站上工作吗？
+- 我是否拥有我自己在自己的硬件上编写的代码，还是公司声称它是他们的？
 
 ## PHP
 
-- Do you use a public framework or is it an in-house environment?
-  - When you find a bug in a public framework, do you give it back to the community?
-
-- Do you use PHP-driven HTML templates, or a third-party template engine such as Smarty or Twig?
-
+- 您使用公共框架还是内部环境？
+  - 当您在公共框架中发现错误时，您会将其回馈给社区吗？
+- 您使用 PHP 驱动的 HTML 模板，还是 Smarty 或 Twig 等第三方模板引擎？
 - Do you use Composer?
-
-- Do you encourage your developers to take the ZCE exam?
-
-- Which version of PHP are you using?
-  - What is the update plan for new PHP releases?
-
+- 您鼓励您的开发人员参加 ZCE 考试吗？
+- 您使用的是哪个版本的 PHP？
+  - PHP 新版本的更新计划是什么？
 
 ## JavaScript
 
-- What is your frontend software stack? (jQuery?, Underscore/Lodash?, Angular/Ember/React?, etc)
-  - Why did you make those choices?
+- 您的前端技术栈是什么？（jQuery?, Underscore/Lodash?, Angular/Ember/React?, etc）
+  - 为什么这么选？
+- 您的前端代码是否使用诸如 Webpack 或 Browserify 之类的模块加载器捆绑在一起？
+- 您是否使用模板引擎，例如 EJS、Jade 或 Handlebars？
+- 您是否使用编译语言，例如 Coffeescript 或 Typescript？（如果是，是必要的吗？）
+- 你使用 NodeJS 作为软件平台吗？（ie, beyond tooling）
 
-- Is your front-end code bundled using a module loader such as Webpack or Browserify?
+## 系统和网络管理 / IT 运维
 
-- Do you use a templating engine, such as EJS, Jade, or Handlebars?
-
-- Do you use a compiled language such as Coffeescript or Typescript? (If yes, is it required?)
-
-- Do you use NodeJS as a software platform? (ie, beyond tooling)
-
-
-## System & Network Administration / IT Operations
-
-- Do you use a configuration management tool? (Puppet, Chef, cfengine, Ansible)
-  - Why was it chosen?
-  - Is its use accepted throughout your IT staff?
-
-- Are configurations version controlled?
- 
-- What is the process for granting a user access rights (RDP, SSH, etc.) to a system?
-
-- Are there multiple access levels for different classes of user?
-
-- Do developers have admin/root rights on systems?
-  - If yes: Why?
- 
-- Do you have different staging environments for testing/development? (Like: DEV, QA, PreLIVE, LIVE)
-
-- Are developers allowed to connect to systems outside of the development environment?
-
-- Do you have a Change Management process? (ITIL, etc.)
- 
-- How do you organize system administration, application development, application deployment and application operating so they fit together?
- 
-- Is there a wiki for server documentation/howtos/best practises?
- 
-- Do you use the same OS distribution on all your servers, or is each server configured for specific needs?
-  - Why did you choose your OS? What were the requirements?
-
-- Are development systems and services standardized, or do developers choose their own environments?
-
-- Do tools need to be approved before use, or may I use whatever I want?
-
-- How frequently do you replace server hardware?
- 
-- Do I have to replace hardware parts myself or is there a dedicated team / external contractor?
-
-- What software / services do you use to load balance?
-
-- Are your applications architectured for horizontal or vertical scaling?
-
-- What is the average uptime of your servers?
-  - Do you consider uptime to be a good indicator for system reliability?
-
-- How do you test fault tolerance? Do you have some kind of "[Chaos Monkey](http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html)"?
-
-- Is there a process for self-build packages (.deb/.rpm/.msi) to be put on some internal repository when an official repository can't provide a package/bugfix?
- 
-- How do you manage IP addresses and DNS records on your network?
-
-- Do you have plans for (switching to) IPv6?
-
-- Do you categorize your networks? (database server network, frontend network, middleware network?) or is everything mixed together in various networks?
-
-- Are DEV/QA/PreLIVE/LIVE systems all in one big network, or is each on a separate network? Are they firewalled so a DEV system can't DoS a LIVE system?
-
-- What is the process for managing rules on internal/external firewalls?
-
+- 您使用配置管理工具吗？（Puppet, Chef, cfengine, Ansible）
+  - 为什么选择它？
+  - 您的 IT 员工是否接受使用它？
+- 配置版本是否受控？
+- 向系统授予用户访问权限（RDP、SSH 等）的过程是什么？
+- 不同类别的用户是否有多个访问级别？
+- 开发人员是否拥有系统的管理员/root 权限？
+  - 如果是：为什么？
+- 您是否有用于测试/开发的不同暂存环境？（例如：DEV、QA、PreLIVE、LIVE）
+- 是否允许开发人员连接到开发环境之外的系统？
+- 您有变更管理流程吗？（ITIL 等）
+- 您是如何组织系统管理、应用程序开发、应用程序部署和应用程序运维，使它们有序结合的？
+- 是否有服务器文档/操作指南/最佳实践的 wiki？
+- 您是否在所有服务器上使用相同的操作系统分发版，或者是否为每个服务器配置了特定需求？
+  - 你为什么选择你的操作系统？有什么要求？
+- 开发系统和服务是标准化的，还是开发人员选择自己的环境？
+- 工具是否需要在使用前获得批准，或者我可以使用我想要的任何东西吗？
+- 您多久更换一次服务器硬件？
+- 我必须自己更换硬件零件还是有专门的团队/外部承包商？
+- 您使用什么软件/服务来进行负载平衡？
+- 您的应用程序是针对水平扩展还是垂直扩展而构建的？
+- 服务器的平均正常运行时间是多少？
+  - 您认为正常运行时间是系统可靠性的一个很好的指标吗？
+- 你如何测试容错能力？你有某种“Chaos Monkey”吗？
+- 当官方存储库无法提供包/错误修复时，是否有将自构建包 (.deb/.rpm/.msi) 放入某个内部存储库的过程？
+- 您如何管理网络上的 IP 地址和 DNS 记录？
+- 您有（切换到）IPv6 的计划吗？
+- 你对你的网络进行分类吗？（数据库服务器网络、前端网络、中间件网络？）还是各种网络中的所有内容都混合在一起？
+- DEV/QA/PreLIVE/LIVE 系统都在一个大网络中，还是每个都在一个单独的网络中？他们是否有防火墙，所以 DEV 系统不能 DoS 一个 LIVE 系统？
+- 管理内部/外部防火墙规则的流程是什么？
